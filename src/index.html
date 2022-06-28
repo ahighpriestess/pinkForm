@@ -1,0 +1,96 @@
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>High Priestess</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <main>
+      <div class="main-header">
+        <span class="main title">
+        <h1>Form</h1>
+        </span><br>
+        <span class="navigation-bar">
+          <nav>
+          <li><a href="#general">GENERAL</a></li>
+          <li><a href="#info">INFO</a></li>
+          <li><a href="#other">OTHER</a></li>
+       <nav>
+          
+          </span>
+      </div>
+    </main>
+      <br><br><br><br><br><br><br>
+        
+     <form action='#'>
+        <section role="region" aria-labelledby="general">
+       
+        <h2 id="general">GENERAL</h2>
+       <div class="information">
+         <br>
+            <label for="name">Name/Alias:</p>
+            <input type="text" name="info" id="info" required/>
+          </div>
+        <div class="information">
+            <label for="email">Email:</p>
+            <input type="email" name="student-email" id="student-email" required/>
+        </div>
+          <div class="information">
+            <label for="age">Age:</p>
+            <input type="number" name="number" id="number" required/>
+        </div>
+        </section>
+        <section role="region" aria-labelledby="info">
+          <h2 id="info">INFO</h2>
+          <div class="information">
+            <label for="client-question">What are you wishing to improve?</label>
+            <br><br><br>
+              <div class="answer">
+              <select name="client" id="client" required>
+                <option value="">Select an option</option>
+                <option value="mental-health">Mental Health</option>
+                <option value="income">Income</option>
+                <option value="love">Love Life</option>
+                <option value="general-improvement">General</option>
+                <option value="other">Other</option>
+                </div>
+            </div>
+              </select>
+            
+            
+        </section>
+        <section role="region" aria-labelledby="other">
+          
+          <h2 id="other">OTHER</h2>
+          <div class="information">
+            <label for="interests">Have you used our services before?</label>
+             <ul class="yes-or-no" style="list-style: none;" required>
+                <li>
+                  <label for="interest-question">
+                    <input type="radio" id="yes" name="interest" value="true" />
+                    Yes
+                  </label>
+                </li>
+                <li>
+                  <label for="interest-question">
+                    <input type="radio" id="no" name="interest" value="false" />
+                    No
+                  </label>
+                </li>
+              </ul>
+          </div>
+          
+        </section>
+       <section>
+       <div class="information">
+        <button type="submit" class="submit">Submit</button>
+         </div>
+       </section>
+       
+       
+       <br><br>
+        </form>
+       
+  </body>
+  </html>
